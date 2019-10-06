@@ -29,7 +29,7 @@ python main.py -i=matrix_file_name
 PLU分解除了生成一个下三角矩阵 L 与上三角矩阵 U 之外，还将生成置换矩阵 P ，用于调整行顺序。 
 ## 输出
 用-o参数传入文件名，可以将生成的分解结果写入指定文件中。
-
+---
 以上参数均可以使用--help获取详细说明
 ```
 # python main.py --help

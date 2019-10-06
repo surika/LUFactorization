@@ -66,14 +66,15 @@ def LU(A, is_change):
 	# 输出到文件
 	if len(args.output) > 0:
 		with open(args.output, 'a') as f:
+			f.write('P:\n')
 			for i in P:
 				f.write(str(i))
 				f.write('\n')
-			f.write('\n')
+			f.write('L:\n')
 			for i in L:
 				f.write(str(i))
 				f.write('\n')
-			f.write('\n')
+			f.write('U:\n')
 			for i in U:
 				f.write(str(i))
 				f.write('\n')
